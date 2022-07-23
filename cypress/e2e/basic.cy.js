@@ -3,7 +3,7 @@ describe('sample test', () => {
     cy.visit('/')
   })
 
-  //it('displays the resources text', () => {
+  it('displays the resources text', () => {
     cy.get('h1')
     .contains('uh oh');
   })
