@@ -1,0 +1,20 @@
+.btn-done{
+  background-color: green;
+  color:white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn-focus {
+  background-color: blue;
+  color:white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn-del {
+  background-color: red;
+  color:white;
+  border-radius: 5px;
+  padding: 5px;
+}
