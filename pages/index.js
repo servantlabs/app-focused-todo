@@ -11,10 +11,21 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="uh oh, watch out now..." />
+        <Header title="FOCUSED To Do" />
         <p className="description">
-          The editing has started... 
+Do you have anything to add?
         </p>
+        <form>
+          <input type="text"></input>
+          <button class="btn-add">ADD +</button>
+        </form>
+          <h2>The Most Important Items:</h2>
+          <ul>
+            <li><button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button>Buy Groceries</li>
+            <li><button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button>Change Jobs</li>
+            <li><button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button>Build Passive Income</li>
+            <li><button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button>Raise Children</li>
+          </ul>
       </main>
 
       <Footer />
