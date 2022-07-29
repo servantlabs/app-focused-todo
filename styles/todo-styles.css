@@ -1,20 +1,65 @@
-.btn-done{
-  background-color: green;
-  color:white;
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #eee;
+}
+
+button {
   border-radius: 5px;
   padding: 5px;
+  transition: 0.5s;
+}
+
+.btn-add{
+  background: white;
+  border: solid 1px green;
+  color:green;
+  margin-left: 10px;
+}
+
+.btn-add:hover{
+  background: green;
+  color: white;
+}
+
+.btn-done{
+  background: white;
+  border: solid 1px green;
+  color:green;
+}
+
+.btn-done:hover{
+  background: green;
+  color: white;
 }
 
 .btn-focus {
-  background-color: blue;
-  color:white;
-  border-radius: 5px;
-  padding: 5px;
+  background-color: white;
+  border: solid 1px blue;
+  color:blue;
+}
+
+.btn-focus:hover{
+  background: blue;
+  color: white;
 }
 
 .btn-del {
-  background-color: red;
-  color:white;
-  border-radius: 5px;
-  padding: 5px;
+  background-color: white;
+  border: solid 1px red;
+  color:red;
+  margin-right: 10px;
 }
+
+.btn-del:hover{
+  background: red;
+  color: white;
+}
+

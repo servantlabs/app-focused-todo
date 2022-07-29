@@ -17,14 +17,14 @@ Do you have anything to add?
         </p>
         <form>
           <input type="text"></input>
-          <button>Add +</button>
+          <button class="btn-add">ADD +</button>
         </form>
-          <h2>Items:</h2>
+          <h2>The Most Important Items:</h2>
           <ul>
-            <li>Buy Groceries<button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button></li>
-            <li>Buy Groceries<button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button></li>
-            <li>Buy Groceries<button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button></li>
-            <li>Buy Groceries<button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button></li>
+            <li><button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button>Buy Groceries</li>
+            <li><button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button>Change Jobs</li>
+            <li><button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button>Build Passive Income</li>
+            <li><button class="btn-done">DONE</button><button class="btn-focus">FOCUS</button><button class="btn-del">DEL</button>Raise Children</li>
           </ul>
       </main>
 
